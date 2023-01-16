@@ -1,7 +1,7 @@
 import {WalletUtils} from "@onflow/fcl"
 import {ConnectedAppConfig} from "hooks/useConnectedAppConfig"
 import {Account} from "src/accounts"
-import {sign} from "src/crypto"
+import {sign} from "src/crypto" 
 import {buildServices} from "./services"
 
 type AccountProofData = {
