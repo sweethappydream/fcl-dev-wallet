@@ -6,7 +6,7 @@ import {buildServices} from "./services"
 
 type AccountProofData = {
   address: string
-  nonce: string | undefined 
+  nonce: string | undefined
   appIdentifier: string | undefined
 }
 
