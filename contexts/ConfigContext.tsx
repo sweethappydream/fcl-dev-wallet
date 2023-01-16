@@ -35,7 +35,7 @@ const defaultConfig = {
 export const ConfigContext = createContext<RuntimeConfig>(defaultConfig)
 
 async function getConfig(): Promise<RuntimeConfig> {
-  if (process.env.isLocal) {
+  if (true) {
     return defaultConfig
   }
 
